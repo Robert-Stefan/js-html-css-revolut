@@ -10,6 +10,10 @@ body {
     padding-top: 30px;
 }
 
+main {
+    height: 90%;
+}
+
 
 /*GENERAL*/
 .container {
@@ -71,7 +75,7 @@ header a:hover {
 }
 
 .drop-menu {
-    display: none;
+    display: none;  /*JQUERY*/
     position: absolute;
     width: 170px;
     top: calc(100% + 25px);
