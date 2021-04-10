@@ -10,11 +10,6 @@ body {
     padding-top: 30px;
 }
 
-main {
-    height: 90%;
-}
-
-
 /*GENERAL*/
 .container {
     margin: 0 auto;
@@ -183,3 +178,29 @@ header a:hover {
     color: black;
 }
 
+/* Style the video*/
+#myVideo {
+    left: 15%;
+    position: relative;
+    padding: 10px;
+    z-index: -1;
+}
+  
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    position: absolute;
+    top: 755px;
+    left: 17%;
+    font-size: 18px;
+    padding: 10px;
+    border: 0;
+    background: lightblue;
+    color: red;
+    cursor: pointer;
+    border-radius: 20px;
+}
+  
+#myBtn:hover {
+    color: black;
+}

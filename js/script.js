@@ -15,5 +15,4 @@ $(document).ready(function(){
     $("main").not($("header")).click(function(){
         dropMenu.hide();
     })
-
-})
+});

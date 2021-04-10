@@ -248,8 +248,40 @@
             </nav>
         </div>
     </header>
-    <main>
+<main>
 
-    </main>
+    <!-- The video -->
+    <video autoplay muted loop id="myVideo">
+        <source src="KH.mp4" type="video/MP4">
+    </video>
+    
+    <audio id="player" autoplay loop>
+        <source src="KH3.mp3" type="audio/mp3">
+    </audio>
+
+        <button id="myBtn" onclick="myFunction()">Pause</button>
+
+    <!--JS for video-->
+    <script>
+
+        //References
+        var video = document.getElementById("myVideo");
+        var btn = document.getElementById("myBtn");
+        var audio = document.getElementById("player");
+
+        //Functions
+        function myFunction() {
+          if (video.paused) {
+            video.play();
+            audio.play();
+            btn.innerHTML = "Pause";
+          } else {
+            video.pause();
+            audio.pause();
+            btn.innerHTML = "Play";
+          }
+        }
+    </script>
+</main>
 </body>
 </html>
