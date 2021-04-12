@@ -199,6 +199,7 @@ header a:hover {
     color: red;
     cursor: pointer;
     border-radius: 20px;
+    outline: none;
 }
   
 #myBtn:hover {
